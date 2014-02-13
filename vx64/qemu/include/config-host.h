@@ -1,0 +1,11 @@
+#ifndef QEMU_CONFIG_HOST_H__
+#define QEMU_CONFIG_HOST_H__
+
+#define CONFIG_QEMU_LDST_OPTIMIZATION
+#define CONFIG_SOFTMMU
+#define NEED_CPU_H
+#define TARGET_I386
+#define USE_STATIC_CODE_GEN_BUFFER
+#define DEBUG_DISAS
+
+#endif

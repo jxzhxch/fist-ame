@@ -1,0 +1,23 @@
+LIBRARY libtrans
+EXPORTS
+	transcpu_init
+	transcpu_reset
+	transcpu_setup_rdtsc_helper
+	transcpu_setup_ram
+	transcpu_remove_ram
+	transcpu_get_reg
+	transcpu_set_reg
+	transcpu_load_seg_cache
+	transcpu_load_xdt
+	transcpu_go
+	transcpu_go_step
+	transcpu_dirty
+	transcpu_flush_tlb
+	transcpu_insert_bp
+	transcpu_insert_wp
+	transcpu_remove_bp
+	transcpu_remove_wp
+	transcpu_remove_all_bps
+	transcpu_remove_all_wps
+	transcpu_query_bps
+	transcpu_query_wps
